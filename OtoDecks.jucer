@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Icetox" name="OtoDecks" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="LzcAia" name="OtoDecks">
+    <GROUP id="{0EE4FBA1-CC5F-22A9-6397-5487580509C2}" name="Source">
+      <GROUP id="{268C6E16-58F1-C63F-D8AB-C883D68C6293}" name="Features">
+        <FILE id="nCpTM5" name="ConfigManager.cpp" compile="1" resource="0"
+              file="Source/ConfigManager.cpp"/>
+        <FILE id="hxM2SZ" name="ConfigManager.h" compile="0" resource="0" file="Source/ConfigManager.h"/>
+        <FILE id="tmn489" name="DJAudioPlayer.h" compile="0" resource="0" file="Source/DJAudioPlayer.h"/>
+        <FILE id="zKi3Lc" name="DJAudioPlayer.cpp" compile="1" resource="0"
+              file="Source/DJAudioPlayer.cpp"/>
+        <FILE id="RIfKSL" name="PlayerPool.cpp" compile="1" resource="0" file="Source/PlayerPool.cpp"/>
+        <FILE id="ScF41L" name="PlayerPool.h" compile="0" resource="0" file="Source/PlayerPool.h"/>
+        <FILE id="XYfyxs" name="TrackCollection.cpp" compile="1" resource="0"
+              file="Source/TrackCollection.cpp"/>
+        <FILE id="OAnV0g" name="TrackCollection.h" compile="0" resource="0"
+              file="Source/TrackCollection.h"/>
+        <FILE id="QKiaCT" name="Track.cpp" compile="1" resource="0" file="Source/Track.cpp"/>
+        <FILE id="DddBf0" name="Track.h" compile="0" resource="0" file="Source/Track.h"/>
+      </GROUP>
+      <GROUP id="{573602D7-DA99-2FD7-229B-77515CA6E04A}" name="Components">
+        <GROUP id="{CA1BAD5D-9C3A-3991-483B-5C8F9C366832}" name="LookAndFeel">
+          <FILE id="VZKD8F" name="OtoDecksLookAndFeel.h" compile="0" resource="0"
+                file="Source/OtoDecksLookAndFeel.h"/>
+          <FILE id="FRaq1L" name="OtoDecksLookAndFeel.cpp" compile="1" resource="0"
+                file="Source/OtoDecksLookAndFeel.cpp"/>
+        </GROUP>
+        <GROUP id="{EA969C3B-F1C6-D2E4-DC83-1B22340EEA79}" name="Playlist">
+          <FILE id="wkGisk" name="PlaylistOperationsComponent.cpp" compile="1"
+                resource="0" file="Source/PlaylistOperationsComponent.cpp"/>
+          <FILE id="okqTyg" name="PlaylistOperationsComponent.h" compile="0"
+                resource="0" file="Source/PlaylistOperationsComponent.h"/>
+          <FILE id="gzl8Ys" name="PlaylistComponent.cpp" compile="1" resource="0"
+                file="Source/PlaylistComponent.cpp"/>
+          <FILE id="M97xxV" name="PlaylistComponent.h" compile="0" resource="0"
+                file="Source/PlaylistComponent.h"/>
+        </GROUP>
+        <GROUP id="{D062AD07-E1E1-5619-7E0B-51274863C95E}" name="Deck">
+          <FILE id="k5klF9" name="FrequencyDisplay.cpp" compile="1" resource="0"
+                file="Source/FrequencyDisplay.cpp"/>
+          <FILE id="x6iPGg" name="FrequencyDisplay.h" compile="0" resource="0"
+                file="Source/FrequencyDisplay.h"/>
+          <FILE id="KZOJxk" name="WaveformDisplayPlayhead.cpp" compile="1" resource="0"
+                file="Source/WaveformDisplayPlayhead.cpp"/>
+          <FILE id="cQC1K1" name="WaveformDisplayPlayhead.h" compile="0" resource="0"
+                file="Source/WaveformDisplayPlayhead.h"/>
+          <FILE id="ZdzcVo" name="WaveformDisplay.cpp" compile="1" resource="0"
+                file="Source/WaveformDisplay.cpp"/>
+          <FILE id="eztiBs" name="WaveformDisplay.h" compile="0" resource="0"
+                file="Source/WaveformDisplay.h"/>
+          <FILE id="ZNyWFS" name="DeckPlayerComponent.cpp" compile="1" resource="0"
+                file="Source/DeckPlayerComponent.cpp"/>
+          <FILE id="poujlk" name="DeckPlayerComponent.h" compile="0" resource="0"
+                file="Source/DeckPlayerComponent.h"/>
+          <FILE id="SmNuTO" name="DeckComponent.cpp" compile="1" resource="0"
+                file="Source/DeckComponent.cpp"/>
+          <FILE id="K5glxK" name="DeckComponent.h" compile="0" resource="0" file="Source/DeckComponent.h"/>
+        </GROUP>
+        <FILE id="TeAvUO" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+        <FILE id="zaGxog" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/MainComponent.cpp"/>
+        <GROUP id="{5DB8DB59-C887-5CB4-B246-A08802696601}" name="Custom">
+          <FILE id="UQcHMX" name="CustomSlider.cpp" compile="1" resource="0"
+                file="Source/CustomSlider.cpp"/>
+          <FILE id="lZTK9G" name="CustomSlider.h" compile="0" resource="0" file="Source/CustomSlider.h"/>
+          <FILE id="xGrWU8" name="FastReverseButton.cpp" compile="1" resource="0"
+                file="Source/FastReverseButton.cpp"/>
+          <FILE id="pl5Mo7" name="FastReverseButton.h" compile="0" resource="0"
+                file="Source/FastReverseButton.h"/>
+          <FILE id="BnYwHQ" name="FastFowardButton.cpp" compile="1" resource="0"
+                file="Source/FastFowardButton.cpp"/>
+          <FILE id="j7IRHq" name="FastFowardButton.h" compile="0" resource="0"
+                file="Source/FastFowardButton.h"/>
+          <FILE id="WaMXgI" name="LoadButton.cpp" compile="1" resource="0" file="Source/LoadButton.cpp"/>
+          <FILE id="V1Fa16" name="LoadButton.h" compile="0" resource="0" file="Source/LoadButton.h"/>
+          <FILE id="W460NP" name="RemoveButton.cpp" compile="1" resource="0"
+                file="Source/RemoveButton.cpp"/>
+          <FILE id="vZ6MHu" name="RemoveButton.h" compile="0" resource="0" file="Source/RemoveButton.h"/>
+          <FILE id="fUam6X" name="AddButton.cpp" compile="1" resource="0" file="Source/AddButton.cpp"/>
+          <FILE id="CKG8ff" name="AddButton.h" compile="0" resource="0" file="Source/AddButton.h"/>
+          <FILE id="tTKfg0" name="CustomButton.cpp" compile="1" resource="0"
+                file="Source/CustomButton.cpp"/>
+          <FILE id="mpKnbV" name="CustomButton.h" compile="0" resource="0" file="Source/CustomButton.h"/>
+          <FILE id="AMTSVy" name="StopButton.cpp" compile="1" resource="0" file="Source/StopButton.cpp"/>
+          <FILE id="gWf3cQ" name="StopButton.h" compile="0" resource="0" file="Source/StopButton.h"/>
+          <FILE id="Q5yIxb" name="PauseButton.cpp" compile="1" resource="0" file="Source/PauseButton.cpp"/>
+          <FILE id="KTFz1x" name="PauseButton.h" compile="0" resource="0" file="Source/PauseButton.h"/>
+          <FILE id="QUNlTZ" name="PlayButton.cpp" compile="1" resource="0" file="Source/PlayButton.cpp"/>
+          <FILE id="X7zPIF" name="PlayButton.h" compile="0" resource="0" file="Source/PlayButton.h"/>
+          <FILE id="l0wcj0" name="PowerButton.cpp" compile="1" resource="0" file="Source/PowerButton.cpp"/>
+          <FILE id="sXeXsq" name="PowerButton.h" compile="0" resource="0" file="Source/PowerButton.h"/>
+        </GROUP>
+      </GROUP>
+      <FILE id="u1n8DK" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="OtoDecks"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="OtoDecks"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="E:/Tools/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="OtoDecks"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="OtoDecks"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="E:/Tools/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="E:/Tools/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
